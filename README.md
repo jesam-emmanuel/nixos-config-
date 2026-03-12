@@ -20,3 +20,7 @@ through a single declarative configuration file.
 
 - `configuration.nix` — full system configuration
 - `hardware-configuration.nix` — hardware config specific to EliteBook 840 G7
+
+- > ⚠️ If you're replicating this, generate your own
+> `hardware-configuration.nix` — don't copy mine directly.
+> Run `nixos-generate-config` on your machine first.
